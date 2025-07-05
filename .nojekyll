@@ -1,0 +1,7 @@
+# Add .nojekyll to prevent processing other files
+touch web/.nojekyll
+
+# Commit and force push
+git add .github/workflows/deploy-pages.yml web/.nojekyll
+git commit -m "Force clean deployment"
+git push origin main -f
