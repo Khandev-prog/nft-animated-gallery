@@ -77,48 +77,45 @@
   Minting will open soon. Follow us on Twitter for updates.
   </p>
 
-  <script>
-    // Configuration
-    const categories = ["gears", "mandalas", "solar", "circuit", "fractal", "aurora"];
-    const nftsPerCategory = 5;
-    const imageBasePath = "images"; // Adjusted path for GitHub Pages
+<script>
+  const categories = ["gears", "mandalas", "solar", "circuit", "fractal", "aurora"];
+  const rarities = ["common", "epic", "legendary"];
+  const nftsPerRarity = 5;
+  const imageBasePath = "images"; // relative to /web/
 
-    // DOM Elements
-    const container = document.getElementById("collections");
+  const container = document.getElementById("collections");
 
-    // Load SVG with error handling
-    async function loadSVG(category, index) {
-      try {
-        const response = await fetch(`${imageBasePath}/${category}/${category}_nft_${index}.svg`);
-        if (!response.ok) throw new Error('SVG not found');
-        return await response.text();
-      } catch (error) {
-        console.error(`Error loading ${category} #${index}:`, error);
-        return null;
-      }
+  async function loadSVG(category, rarity, index) {
+    const path = `${imageBasePath}/${category}/${rarity}/${category}_nft_${index}.svg`;
+    try {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error(`Missing: ${path}`);
+      return await response.text();
+    } catch (error) {
+      console.warn(`❌ ${path} not found`);
+      return null;
     }
+  }
 
-    // Render all NFT categories
-    async function renderGallery() {
-      for (const category of categories) {
-        // Create category section
-        const categoryDiv = document.createElement('div');
-        categoryDiv.className = 'category';
-        categoryDiv.innerHTML = `
-          <h2>${category.charAt(0).toUpperCase() + category.slice(1)} Collection</h2>
-          <div class="nft-grid" id="grid-${category}"></div>
-        `;
-        container.appendChild(categoryDiv);
-        
-        // Load NFTs for this category
-        const grid = document.getElementById(`grid-${category}`);
-        for (let i = 1; i <= nftsPerCategory; i++) {
-          const svgContent = await loadSVG(category, i);
+  async function renderGallery() {
+    for (const category of categories) {
+      const categoryDiv = document.createElement("div");
+      categoryDiv.className = "category";
+      categoryDiv.innerHTML = `
+        <h2>${category.charAt(0).toUpperCase() + category.slice(1)} Collection</h2>
+        <div class="nft-grid" id="grid-${category}"></div>
+      `;
+      container.appendChild(categoryDiv);
+      const grid = document.getElementById(`grid-${category}`);
+
+      for (const rarity of rarities) {
+        for (let i = 1; i <= nftsPerRarity; i++) {
+          const svgContent = await loadSVG(category, rarity, i);
           if (svgContent) {
-            const card = document.createElement('div');
-            card.className = 'nft-card';
+            const card = document.createElement("div");
+            card.className = "nft-card";
             card.innerHTML = `
-              <div class="nft-title">${category} #${i}</div>
+              <div class="nft-title">${category} - ${rarity} #${i}</div>
               ${svgContent}
             `;
             grid.appendChild(card);
@@ -126,9 +123,9 @@
         }
       }
     }
+  }
 
-    // Initialize gallery
-    document.addEventListener('DOMContentLoaded', renderGallery);
-  </script>
+  document.addEventListener("DOMContentLoaded", renderGallery);
+</script>
 </body>
 </html>
