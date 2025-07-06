@@ -1,0 +1,105 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0e9f9" />
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="239.32123013857188" ry="45.95652728441077" fill="none" stroke="#4db6ac" stroke-width="3" opacity="0.7"
+        transform="rotate(117 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="117 256 256" to="477 256 256"
+          dur="4.80104931379394s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="241.87022197455744" ry="31.12872182803474" fill="none" stroke="#4db6ac" stroke-width="2" opacity="0.7"
+        transform="rotate(299 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="299 256 256" to="659 256 256"
+          dur="3.7972129902529943s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="149.13369238678797" ry="111.23687101396477" fill="none" stroke="#ba68c8" stroke-width="3" opacity="0.7"
+        transform="rotate(164 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="164 256 256" to="524 256 256"
+          dur="2.8215280202413595s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="202.5681908525615" ry="30.506746383110954" fill="none" stroke="#64b5f6" stroke-width="2" opacity="0.7"
+        transform="rotate(106 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="106 256 256" to="466 256 256"
+          dur="3.048755803835465s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="198.85871083052973" ry="97.95701273610601" fill="none" stroke="#64b5f6" stroke-width="3" opacity="0.7"
+        transform="rotate(266 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="266 256 256" to="626 256 256"
+          dur="2.0240533468770883s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="229.34598003081524" ry="40.35155597757149" fill="none" stroke="#ffd54f" stroke-width="2" opacity="0.7"
+        transform="rotate(268 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="268 256 256" to="628 256 256"
+          dur="3.0976929397867754s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="218.4623661140359" ry="28.622762715272085" fill="none" stroke="#ff8a65" stroke-width="2" opacity="0.7"
+        transform="rotate(118 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="118 256 256" to="478 256 256"
+          dur="3.054501321972852s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="226.25785642049667" ry="67.64873154858881" fill="none" stroke="#4db6ac" stroke-width="2" opacity="0.7"
+        transform="rotate(281 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="281 256 256" to="641 256 256"
+          dur="4.0570846605567645s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="106.58244529341923" ry="56.747145712574394" fill="none" stroke="#ffd54f" stroke-width="2" opacity="0.7"
+        transform="rotate(145 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="145 256 256" to="505 256 256"
+          dur="2.7342661992305217s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="136.73033940858255" ry="148.1109662142836" fill="none" stroke="#ffd54f" stroke-width="2" opacity="0.7"
+        transform="rotate(78 256 256)"
+        filter="url(#glow-strong)">
+        <animateTransform attributeName="transform" type="rotate"
+          from="78 256 256" to="438 256 256"
+          dur="3.0142800089568516s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#2228" font-family="Arial">Fractal NFT #36</text>
+</svg>

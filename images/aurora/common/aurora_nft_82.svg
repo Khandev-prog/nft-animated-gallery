@@ -1,0 +1,50 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#2c5364" />
+  <defs>
+    
+      <linearGradient id="aurora0" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#e3f6f5">
+          <animate attributeName="stop-color" values="#e3f6f5;#9de09d;#e3f6f5" dur="3.4079855787629745s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#9de09d">
+          <animate attributeName="stop-color" values="#9de09d;#e3f6f5;#9de09d" dur="3.4079855787629745s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+      <linearGradient id="aurora1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#f7b2ad">
+          <animate attributeName="stop-color" values="#f7b2ad;#f7b2ad;#f7b2ad" dur="3.2572938800663707s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#f7b2ad">
+          <animate attributeName="stop-color" values="#f7b2ad;#f7b2ad;#f7b2ad" dur="3.2572938800663707s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+      <linearGradient id="aurora2" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#b2f5ea">
+          <animate attributeName="stop-color" values="#b2f5ea;#f7b2ad;#b2f5ea" dur="4.934150731032624s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#f7b2ad">
+          <animate attributeName="stop-color" values="#f7b2ad;#b2f5ea;#f7b2ad" dur="4.934150731032624s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+  </defs>
+  
+    <ellipse cx="256" cy="250.17446203451337" rx="183.75744258616382" ry="50.320392410594074" fill="url(#aurora0)" opacity="0.36625584647346277">
+      <animate attributeName="rx" values="183.75744258616382;220.50893110339658;183.75744258616382" dur="3.4079855787629745s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="250.17446203451337;280.17446203451334;250.17446203451337" dur="4.4079855787629745s" repeatCount="indefinite"/>
+    </ellipse>
+  
+    <ellipse cx="256" cy="274.7974020735822" rx="197.17931770769624" ry="58.57687723547888" fill="url(#aurora1)" opacity="0.42167264695951134">
+      <animate attributeName="rx" values="197.17931770769624;236.6151812492355;197.17931770769624" dur="3.2572938800663707s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="274.7974020735822;304.7974020735822;274.7974020735822" dur="4.257293880066371s" repeatCount="indefinite"/>
+    </ellipse>
+  
+    <ellipse cx="256" cy="343.92571097426963" rx="214.33245866568916" ry="66.13971914708358" fill="url(#aurora2)" opacity="0.37149780253710873">
+      <animate attributeName="rx" values="214.33245866568916;257.198950398827;214.33245866568916" dur="4.934150731032624s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="343.92571097426963;373.92571097426963;343.92571097426963" dur="5.934150731032624s" repeatCount="indefinite"/>
+    </ellipse>
+  
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#fff9" font-family="Arial">Aurora NFT #82</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ffebee" />
+  
+    <g>
+      <polygon points="354,256 325.29646455628165,325.29646455628165 256,354 186.70353544371835,325.29646455628165 158,256 186.70353544371832,186.70353544371835 255.99999999999997,158 325.29646455628165,186.70353544371832" fill="none" stroke="#f48fb1" stroke-width="4" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="360 256 256"
+          dur="4.27046078500193s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g>
+      <polygon points="382,256 345.095454429505,345.09545442950497 256,382 166.90454557049503,345.095454429505 130,256 166.90454557049497,166.90454557049503 255.99999999999997,130 345.09545442950497,166.90454557049497" fill="none" stroke="#ff8a65" stroke-width="3" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="360 256 256"
+          dur="3.220794607607206s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g>
+      <polygon points="435,256 414.4966285919246,339.18544779583453 357.6835896648769,403.3141119949645 277.5760657657028,433.69488846355165 192.52572521938615,423.36790744068924 122.01657607737289,374.69895582510236 82.20141468073669,298.8375039074728 82.20141468073666,213.16249609252722 122.01657607737286,137.3010441748977 192.52572521938606,88.63209255931076 277.5760657657029,78.30511153644835 357.6835896648767,108.6858880050354 414.4966285919246,172.81455220416547" fill="none" stroke="#90a4ae" stroke-width="4" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="-360 256 256"
+          dur="3.4905859079660493s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#222" opacity="0.7" font-family="Arial">Mandala #77</text>
+</svg>

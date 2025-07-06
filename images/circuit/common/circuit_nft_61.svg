@@ -1,0 +1,69 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#212529" />
+  
+    <polyline points="126.15535268311405,284.1416558923231 132.05633501506014,325.92744033246686 168.1669796857327,361.40009884457294 164.9521853555865,394.5848242348509 144.77008172026672,345.38091167985266 117.16863288549422,390.82060911568277" fill="none" stroke="#90ee90" stroke-width="3" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="100;0;100" dur="3.238279731239154s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.238279731239154s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="7" cx="117.16863288549422" cy="390.82060911568277" fill="#90ee90" opacity="0.7">
+      <animate attributeName="r" values="7;13;7" dur="3.738279731239154s" repeatCount="indefinite"/>
+    </circle>
+  
+    <polyline points="180.63744427824668,251.31506988879377 159.26340516395325,241.92888407459944 136.22779308436222,290.05800598307826 95.23903878677915,255.12509871455703 48.89579592235221,228.29170025130483 55.71118629769521,253.50763559392163" fill="none" stroke="#22d3ee" stroke-width="4" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="100;0;100" dur="4.386426322693004s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="5.386426322693004s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="7" cx="55.71118629769521" cy="253.50763559392163" fill="#22d3ee" opacity="0.7">
+      <animate attributeName="r" values="7;13;7" dur="4.886426322693004s" repeatCount="indefinite"/>
+    </circle>
+  
+    <polyline points="334.3422900244419,405.4694081864736 284.6577787013852,377.4324602451831 287.1074483507194,362.75307170176217 316.043654378464,345.38377752170186 332.99277412279775,324.5148456286195 318.04180914506156,279.57321938167877 331.8529933022986,231.81205203264938" fill="none" stroke="#f472b6" stroke-width="4" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="100;0;100" dur="3.7340934489711484s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.734093448971148s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="7" cx="331.8529933022986" cy="231.81205203264938" fill="#f472b6" opacity="0.7">
+      <animate attributeName="r" values="7;13;7" dur="4.234093448971148s" repeatCount="indefinite"/>
+    </circle>
+  
+    <polyline points="320.24682425432127,318.0664784494821 337.51706878048896,292.99306750378986 323.7757743457417,272.26557054916293 369.86199453729193,294.8849423974019 401.33329286138945,302.548386089647 369.8729453903656,344.973849806539" fill="none" stroke="#f472b6" stroke-width="4" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="100;0;100" dur="2.3074141879048407s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.3074141879048407s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="7" cx="369.8729453903656" cy="344.973849806539" fill="#f472b6" opacity="0.7">
+      <animate attributeName="r" values="7;13;7" dur="2.8074141879048407s" repeatCount="indefinite"/>
+    </circle>
+  
+    <polyline points="265.23660153898675,313.0565402159848 218.21155123969163,343.44774397512674 225.77226461203054,336.02734077176694 234.5921309773062,355.09793413907107 185.4690264815174,328.01281253996507 137.76566634529743,293.8032306641139 151.02853397739005,323.7023604628284" fill="none" stroke="#fbbf24" stroke-width="3" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="100;0;100" dur="3.985472866781348s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.985472866781349s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="7" cx="151.02853397739005" cy="323.7023604628284" fill="#fbbf24" opacity="0.7">
+      <animate attributeName="r" values="7;13;7" dur="4.485472866781349s" repeatCount="indefinite"/>
+    </circle>
+  
+    <polyline points="281.9321640421498,166.03956217700832 311.2366093453231,173.6607235225439 285.7362465465283,174.3736232653026 248.55519323569646,126.34650123301867 219.21774500073025,170.93170229971645" fill="none" stroke="#8ecae6" stroke-width="3" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="100;0;100" dur="3.526552828885342s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.526552828885341s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="7" cx="219.21774500073025" cy="170.93170229971645" fill="#8ecae6" opacity="0.7">
+      <animate attributeName="r" values="7;13;7" dur="4.026552828885341s" repeatCount="indefinite"/>
+    </circle>
+  
+    <polyline points="342.2313172610764,229.8796550411005 332.0107135179215,230.4189792135764 381.60646639274904,261.3484603758631 365.5229316371606,256.88210871182156 339.47927073289577,292.46557302158703 385.6732333785666,265.41334369395537 381.44001875563305,230.25594025945327" fill="none" stroke="#00ffea" stroke-width="4" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="100;0;100" dur="4.161194108807264s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="5.161194108807264s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="7" cx="381.44001875563305" cy="230.25594025945327" fill="#00ffea" opacity="0.7">
+      <animate attributeName="r" values="7;13;7" dur="4.661194108807264s" repeatCount="indefinite"/>
+    </circle>
+  
+    <polyline points="202.85767242477388,101.83740394544834 243.8524509288076,93.89427795677722 208.65477886247865,107.98792005528166 178.45012636540287,118.60592302592627 148.8101489611678,163.97975268093546" fill="none" stroke="#00ffd0" stroke-width="4" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="100;0;100" dur="2.588824887128437s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.588824887128437s" repeatCount="indefinite"/>
+    </polyline>
+    <circle r="7" cx="148.8101489611678" cy="163.97975268093546" fill="#00ffd0" opacity="0.7">
+      <animate attributeName="r" values="7;13;7" dur="3.088824887128437s" repeatCount="indefinite"/>
+    </circle>
+  
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#fff9" font-family="Arial">Circuit NFT #61</text>
+</svg>

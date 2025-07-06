@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#232526" />
+  <defs>
+    
+      <linearGradient id="aurora0" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#f7b2ad">
+          <animate attributeName="stop-color" values="#f7b2ad;#f7b2ad;#f7b2ad" dur="4.893800420862225s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#f7b2ad">
+          <animate attributeName="stop-color" values="#f7b2ad;#f7b2ad;#f7b2ad" dur="4.893800420862225s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+      <linearGradient id="aurora1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#e3f6f5">
+          <animate attributeName="stop-color" values="#e3f6f5;#b2f5ea;#e3f6f5" dur="4.755103156461285s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#b2f5ea">
+          <animate attributeName="stop-color" values="#b2f5ea;#e3f6f5;#b2f5ea" dur="4.755103156461285s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+  </defs>
+  
+    <ellipse cx="256" cy="227.90221529049097" rx="175.7665612546167" ry="41.958495937771545" fill="url(#aurora0)" opacity="0.29518073855206783">
+      <animate attributeName="rx" values="175.7665612546167;210.91987350554004;175.7665612546167" dur="4.893800420862225s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="227.90221529049097;257.902215290491;227.90221529049097" dur="5.893800420862225s" repeatCount="indefinite"/>
+    </ellipse>
+  
+    <ellipse cx="256" cy="306.948736734108" rx="207.042731662519" ry="30.170845457182267" fill="url(#aurora1)" opacity="0.4206173487974785">
+      <animate attributeName="rx" values="207.042731662519;248.4512779950228;207.042731662519" dur="4.755103156461285s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="306.948736734108;336.948736734108;306.948736734108" dur="5.755103156461285s" repeatCount="indefinite"/>
+    </ellipse>
+  
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#fff9" font-family="Arial">Aurora NFT #1</text>
+</svg>

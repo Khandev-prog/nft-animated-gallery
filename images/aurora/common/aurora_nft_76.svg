@@ -1,0 +1,64 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#314755" />
+  <defs>
+    
+      <linearGradient id="aurora0" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#e3f6f5">
+          <animate attributeName="stop-color" values="#e3f6f5;#f7b2ad;#e3f6f5" dur="3.098476837709391s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#f7b2ad">
+          <animate attributeName="stop-color" values="#f7b2ad;#e3f6f5;#f7b2ad" dur="3.098476837709391s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+      <linearGradient id="aurora1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#b2f5ea">
+          <animate attributeName="stop-color" values="#b2f5ea;#e3f6f5;#b2f5ea" dur="4.788970732204997s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#e3f6f5">
+          <animate attributeName="stop-color" values="#e3f6f5;#b2f5ea;#e3f6f5" dur="4.788970732204997s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+      <linearGradient id="aurora2" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#88e0ef">
+          <animate attributeName="stop-color" values="#88e0ef;#e3f6f5;#88e0ef" dur="3.8976521760058267s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#e3f6f5">
+          <animate attributeName="stop-color" values="#e3f6f5;#88e0ef;#e3f6f5" dur="3.8976521760058267s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+      <linearGradient id="aurora3" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#b2f5ea">
+          <animate attributeName="stop-color" values="#b2f5ea;#f7b2ad;#b2f5ea" dur="3.177417567905978s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#f7b2ad">
+          <animate attributeName="stop-color" values="#f7b2ad;#b2f5ea;#f7b2ad" dur="3.177417567905978s" repeatCount="indefinite" />
+        </stop>
+      </linearGradient>
+    
+  </defs>
+  
+    <ellipse cx="256" cy="239.5854030948015" rx="149.50454422649264" ry="71.36740662180466" fill="url(#aurora0)" opacity="0.3706003260361345">
+      <animate attributeName="rx" values="149.50454422649264;179.40545307179116;149.50454422649264" dur="3.098476837709391s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="239.5854030948015;269.5854030948015;239.5854030948015" dur="4.098476837709391s" repeatCount="indefinite"/>
+    </ellipse>
+  
+    <ellipse cx="256" cy="290.2176704954461" rx="162.79063581484178" ry="73.48277698070154" fill="url(#aurora1)" opacity="0.4295290109833313">
+      <animate attributeName="rx" values="162.79063581484178;195.34876297781014;162.79063581484178" dur="4.788970732204997s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="290.2176704954461;320.2176704954461;290.2176704954461" dur="5.788970732204997s" repeatCount="indefinite"/>
+    </ellipse>
+  
+    <ellipse cx="256" cy="343.85587068321627" rx="161.58483658759118" ry="31.069746464146064" fill="url(#aurora2)" opacity="0.32107767036867796">
+      <animate attributeName="rx" values="161.58483658759118;193.9018039051094;161.58483658759118" dur="3.8976521760058267s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="343.85587068321627;373.85587068321627;343.85587068321627" dur="4.897652176005827s" repeatCount="indefinite"/>
+    </ellipse>
+  
+    <ellipse cx="256" cy="376.5929202373713" rx="154.68071252896743" ry="41.85505206768446" fill="url(#aurora3)" opacity="0.5621115666171569">
+      <animate attributeName="rx" values="154.68071252896743;185.6168550347609;154.68071252896743" dur="3.177417567905978s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="376.5929202373713;406.5929202373713;376.5929202373713" dur="4.177417567905978s" repeatCount="indefinite"/>
+    </ellipse>
+  
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#fff9" font-family="Arial">Aurora NFT #76</text>
+</svg>

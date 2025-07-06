@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#e0f7fa" />
+  
+    <g>
+      <polygon points="338,256 307.1261637524162,320.11018156237844 237.75328341558222,335.94408879890955 182.12055283200164,291.57846660763977 182.12055283200164,220.42153339236023 237.7532834155822,176.05591120109045 307.1261637524161,191.88981843762156" fill="none" stroke="#ba68c8" stroke-width="3" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="360 256 256"
+          dur="3.4253164802966776s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g>
+      <polygon points="381,256 344.3883476483185,344.3883476483184 256,381 167.61165235168158,344.3883476483185 131,256 167.61165235168153,167.61165235168158 255.99999999999997,131 344.3883476483184,167.61165235168153" fill="none" stroke="#64b5f6" stroke-width="4" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="360 256 256"
+          dur="4.743659322031002s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g>
+      <polygon points="427,256 362.61675611784347,389.6931835020331 217.94892029347025,422.7126729830918 101.93432358868634,330.19411938910247 101.93432358868634,181.8058806108976 217.9489202934702,89.28732701690816 362.6167561178434,122.30681649796688" fill="none" stroke="#f48fb1" stroke-width="4" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="-360 256 256"
+          dur="4.464139819586157s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g>
+      <polygon points="475,256 423.76373304305616,396.7704865213521 294.02895090905776,471.67289790967357 146.50000000000006,445.65956342879207 50.20731604788608,330.90241138832147 50.20731604788605,181.09758861167856 146.4999999999999,66.34043657120796 294.02895090905764,40.327102090326406 423.76373304305616,115.22951347864782" fill="none" stroke="#f48fb1" stroke-width="4" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="360 256 256"
+          dur="3.5643337506625685s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#222" opacity="0.7" font-family="Arial">Mandala #61</text>
+</svg>

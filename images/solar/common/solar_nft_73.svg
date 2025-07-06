@@ -1,0 +1,44 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#001f3f" />
+  <circle cx="256" cy="256" r="50" fill="#ffd700" opacity="0.95">
+    <animate attributeName="r" values="50;57;50" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.95;1;0.95" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="88" ry="88" fill="none" stroke="#fff" stroke-width="2" opacity="0.22"/>
+      <circle r="17" fill="#8ecae6" cx="344" cy="256">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="-360 256 256"
+          dur="3.8639004479621826s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="134" ry="134" fill="none" stroke="#fff" stroke-width="2" opacity="0.22"/>
+      <circle r="16" fill="#8ecae6" cx="390" cy="256">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="360 256 256"
+          dur="3.941309445530708s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="170" ry="170" fill="none" stroke="#fff" stroke-width="2" opacity="0.22"/>
+      <circle r="13" fill="#8ecae6" cx="426" cy="256">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="-360 256 256"
+          dur="2.7324178220669215s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="227" ry="227" fill="none" stroke="#fff" stroke-width="2" opacity="0.22"/>
+      <circle r="12" fill="#ffe066" cx="483" cy="256">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="360 256 256"
+          dur="4.862763470052593s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  
+</svg>

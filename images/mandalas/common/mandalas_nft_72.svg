@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff7e6" />
+  
+    <g>
+      <polygon points="352,256 304,339.1384387633061 208.00000000000003,339.1384387633061 160,256 207.99999999999994,172.8615612366939 304,172.8615612366939" fill="none" stroke="#64b5f6" stroke-width="4" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="-360 256 256"
+          dur="3.407915394039978s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g>
+      <polygon points="386,256 368.58330249197707,321 321,368.583302491977 256,386 191.00000000000003,368.58330249197707 143.41669750802296,321 126,256 143.41669750802293,191.00000000000006 190.99999999999994,143.416697508023 255.99999999999997,126 321,143.416697508023 368.583302491977,190.99999999999994" fill="none" stroke="#ffd54f" stroke-width="3" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="360 256 256"
+          dur="3.7826633692285028s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g>
+      <polygon points="435,256 345.5,411.01854727741454 166.50000000000006,411.01854727741454 77,256 166.49999999999991,100.98145272258552 345.5,100.98145272258549" fill="none" stroke="#ffd54f" stroke-width="3" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="-360 256 256"
+          dur="3.5246933047188533s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    <g>
+      <polygon points="462,256 413.8051552825095,388.4142475954271 291.77152459938765,458.8703971205149 153.00000000000006,434.4012331795944 62.42332011810288,326.45614952508777 62.42332011810285,185.54385047491226 152.99999999999991,77.59876682040567 291.7715245993876,53.129602879485134 413.8051552825094,123.58575240457284" fill="none" stroke="#ba68c8" stroke-width="3" opacity="0.7">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 256 256" to="-360 256 256"
+          dur="3.049530663573162s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#222" opacity="0.7" font-family="Arial">Mandala #72</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#e0f7fa" />
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="217.10714961979727" ry="52.570601330738256" fill="none" stroke="#ba68c8" stroke-width="2" opacity="0.7"
+        transform="rotate(314 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="314 256 256" to="674 256 256"
+          dur="3.940737013016154s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="159.86868863833382" ry="38.261766131013054" fill="none" stroke="#64b5f6" stroke-width="3" opacity="0.7"
+        transform="rotate(171 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="171 256 256" to="531 256 256"
+          dur="2.1372225881205638s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="123.91580550778058" ry="76.0933965385291" fill="none" stroke="#ffd54f" stroke-width="2" opacity="0.7"
+        transform="rotate(105 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="105 256 256" to="465 256 256"
+          dur="3.756198785767525s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="74.58483559789607" ry="159.55788280430008" fill="none" stroke="#4db6ac" stroke-width="3" opacity="0.7"
+        transform="rotate(278 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="278 256 256" to="638 256 256"
+          dur="4.184684891612989s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="108.16874146947897" ry="49.23890192995196" fill="none" stroke="#ffd54f" stroke-width="2" opacity="0.7"
+        transform="rotate(328 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="328 256 256" to="688 256 256"
+          dur="3.0722579667300494s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="179.47921605382112" ry="102.87614956896421" fill="none" stroke="#4db6ac" stroke-width="2" opacity="0.7"
+        transform="rotate(85 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="85 256 256" to="445 256 256"
+          dur="2.6053869950916675s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="158.71889074991236" ry="95.99043300548608" fill="none" stroke="#ba68c8" stroke-width="3" opacity="0.7"
+        transform="rotate(31 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="31 256 256" to="391 256 256"
+          dur="3.2255397834864263s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="122.26145987438343" ry="51.53940768213814" fill="none" stroke="#ffd54f" stroke-width="2" opacity="0.7"
+        transform="rotate(203 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="203 256 256" to="563 256 256"
+          dur="2.5710029956608906s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <g>
+      <ellipse cx="256" cy="256" rx="211.64500014079655" ry="117.53880939272953" fill="none" stroke="#64b5f6" stroke-width="3" opacity="0.7"
+        transform="rotate(358 256 256)"
+        filter="none">
+        <animateTransform attributeName="transform" type="rotate"
+          from="358 256 256" to="718 256 256"
+          dur="2.6067919098853984s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+  <text x="50%" y="95%" text-anchor="middle" font-size="32" fill="#2228" font-family="Arial">Fractal NFT #30</text>
+</svg>
