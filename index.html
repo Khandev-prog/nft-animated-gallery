@@ -80,20 +80,33 @@
 <script>
   const categories = ["gears", "mandalas", "solar", "circuit", "fractal", "aurora"];
   const subfolders = ["common", "epic", "legendary"];
-  const nftsPerFolder = 5;
-  const imageBasePath = "images"; // From web root
+  const nftsPerCategory = 50;
+  const imageBasePath = "images";
 
   const container = document.getElementById("collections");
 
-  async function loadSVG(path) {
+  async function tryFetch(path) {
     try {
       const response = await fetch(path);
       if (!response.ok) throw new Error('SVG not found');
       return await response.text();
-    } catch (error) {
-      console.error(`Error loading ${path}:`, error);
+    } catch {
       return null;
     }
+  }
+
+  async function loadSVG(category, index) {
+    for (const folder of subfolders) {
+      const path = `${imageBasePath}/${category}/${folder}/${category}_nft_${index}.svg`;
+      const svg = await tryFetch(path);
+      if (svg) {
+        return {
+          svg,
+          tier: folder
+        };
+      }
+    }
+    return null;
   }
 
   async function renderGallery() {
@@ -107,20 +120,16 @@
       container.appendChild(categoryDiv);
 
       const grid = document.getElementById(`grid-${category}`);
-
-      for (const tier of subfolders) {
-        for (let i = 1; i <= nftsPerFolder; i++) {
-          const path = `${imageBasePath}/${category}/${tier}/${category}_nft_${i}.svg`;
-          const svgContent = await loadSVG(path);
-          if (svgContent) {
-            const card = document.createElement('div');
-            card.className = 'nft-card';
-            card.innerHTML = `
-              <div class="nft-title">${category} (${tier}) #${i}</div>
-              ${svgContent}
-            `;
-            grid.appendChild(card);
-          }
+      for (let i = 1; i <= nftsPerCategory; i++) {
+        const result = await loadSVG(category, i);
+        if (result) {
+          const card = document.createElement('div');
+          card.className = 'nft-card';
+          card.innerHTML = `
+            <div class="nft-title">${category} (${result.tier}) #${i}</div>
+            ${result.svg}
+          `;
+          grid.appendChild(card);
         }
       }
     }
