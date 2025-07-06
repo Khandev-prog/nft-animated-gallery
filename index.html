@@ -78,45 +78,47 @@
   </p>
 
 <script>
-  const categories = ["gears", "mandalas", "solar", "circuit", "fractal", "aurora"];
+  const categories = ["aurora", "solar", "circuit", "gears", "mandalas", "fractal"];
   const rarities = ["common", "epic", "legendary"];
   const nftsPerRarity = 5;
-  const imageBasePath = "images"; // relative to /web/
+  const imageBasePath = "images";
 
   const container = document.getElementById("collections");
 
   async function loadSVG(category, rarity, index) {
-    const path = `${imageBasePath}/${category}/${rarity}/${category}_nft_${index}.svg`;
+    const fileName = `${category}_nft_${index}.svg`;
+    const fullPath = `${imageBasePath}/${category}/${rarity}/${fileName}`;
     try {
-      const response = await fetch(path);
-      if (!response.ok) throw new Error(`Missing: ${path}`);
+      const response = await fetch(fullPath);
+      if (!response.ok) throw new Error(`Not found: ${fullPath}`);
       return await response.text();
     } catch (error) {
-      console.warn(`❌ ${path} not found`);
+      console.warn(error.message);
       return null;
     }
   }
 
   async function renderGallery() {
     for (const category of categories) {
-      const categoryDiv = document.createElement("div");
-      categoryDiv.className = "category";
-      categoryDiv.innerHTML = `
+      const section = document.createElement("div");
+      section.className = "category";
+      section.innerHTML = `
         <h2>${category.charAt(0).toUpperCase() + category.slice(1)} Collection</h2>
         <div class="nft-grid" id="grid-${category}"></div>
       `;
-      container.appendChild(categoryDiv);
+      container.appendChild(section);
+
       const grid = document.getElementById(`grid-${category}`);
 
       for (const rarity of rarities) {
         for (let i = 1; i <= nftsPerRarity; i++) {
-          const svgContent = await loadSVG(category, rarity, i);
-          if (svgContent) {
+          const svg = await loadSVG(category, rarity, i);
+          if (svg) {
             const card = document.createElement("div");
             card.className = "nft-card";
             card.innerHTML = `
-              <div class="nft-title">${category} - ${rarity} #${i}</div>
-              ${svgContent}
+              <div class="nft-title">${category} – ${rarity} #${i}</div>
+              ${svg}
             `;
             grid.appendChild(card);
           }
